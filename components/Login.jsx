@@ -10,8 +10,9 @@ function Login({ providers }) {
         height={150}
         objectFit="contain"
       />
+
       <div>
-        {Object.values(providers).map(provider => (
+        {Object.values(providers).map((provider) => (
           <div key={provider.name}>
             <button
               className="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-white rounded hover:bg-white group"
@@ -25,9 +26,8 @@ function Login({ providers }) {
           </div>
         ))}
       </div>
-
     </div>
-  )
+  );
 }
 
-export default Login
+export default Login;
