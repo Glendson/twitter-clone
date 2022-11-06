@@ -2,6 +2,8 @@
 
 <p align="center">Twitter-clone developed with NextJS and tailwindCss</p>
 
+
+
 ## Getting Started
 
 First, run the development server:
